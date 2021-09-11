@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  background-color: rgb(249, 249, 249);
+  position: relative;
+}
+
+nav {
+  width: 1320px;
+  left: 80px;
+  position: absolute;
+  height: 50px;
+  overflow: hidden;
+  font-family: myfont;
+  margin-top: 20px;
+  margin-left: 90px;
+}
+
+nav div img {
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 5px;
+  float: left;
+}
+
+nav span {
+  display: block;
+  float: left;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-size: 22px;
+}
+
+nav a {
+  height: 30px;
+  width: 80px;
+  font-size: 18px;
+  transition: all 0.6s;
+  text-align: center;
+  border-radius: 8px;
+}
+
+nav .home {
+  line-height: 30px;
+  left: 1000px;
+  top: 16px;
+  position: absolute;
+}
+
+nav .share {
+  line-height: 30px;
+  left: 1100px;
+  top: 16px;
+  position: absolute;
+}
+
+nav a:hover {
+  color: white;
+  background-color: rgb(29, 116, 223);
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url("/NerisFreeWeigths/Neris-Light.otf");
+}
+
+img {
+  float: left;
+  width: 30px;
+}
+
+p {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 4px;
+  float: left;
+  display: block;
+}
+
+.box {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -650px;
+  width: 1300px;
+  height: auto;
+  /* background-color: pink; */
+}
+
+.content {
+  left: 100px;
+  top: 100px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  height: 34px;
+  width: 340px;
+}
+
+tr {
+  transition: all 0.6s;
+}
+
+tr:hover {
+  background-color: rgb(177, 233, 255);
+}
+
+.right {
+  width: 140px;
+}
+
+hr {
+  width: 817px;
+}
